@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/escolha_seu_produto" />
+    <CheckBox
+        android:id="@+id/chkArroz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/arroz" />
+    <CheckBox
+        android:id="@+id/chkLeite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/leite" />
+    <CheckBox
+        android:id="@+id/chkCarne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/carne" />
+    <CheckBox
+        android:id="@+id/chkFeijao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/feijao" />
+
+    <Button
+        android:id="@+id/btnTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/total_das_compras" />
+
+</LinearLayout>

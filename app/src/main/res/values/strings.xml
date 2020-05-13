@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Compras</string>
+    <string name="total_das_compras">Total das Compras</string>
+    <string name="feijao">Feijão (R$ 2,30)</string>
+    <string name="leite">Leite (R$ 5,00)</string>
+    <string name="arroz">Arroz (R$ 2,69)</string>
+    <string name="escolha_seu_produto">Escolha seu produto</string>
+    <string name="carne">Carne (R$ 9,79)</string>
+    <string name="yes">Ok</string>
+</resources>
